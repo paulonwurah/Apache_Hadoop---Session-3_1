@@ -1,0 +1,26 @@
+# Apache_Hadoop---Session-3_1
+ HDFS Internals Assignment 1
+ 
+ 
+ 
+1.HDFS is built around the idea that data is written once but read many times. (D)
+
+2.Hadoop divides input into fixed size pieces called what? Input Splits (B)
+
+3.All the blocks are replicated in other nodes for fault tolerance (D)
+
+4.Block size can be changed using the properties in hdfs-site.xml (C)
+
+5.Hadoop uses the block representation of the data stored in the file blocks known as Input splits. (B)
+
+6.DFS calls NameNode to create file in file system’s namespace (C)
+
+7.Data packets are streamed to first DataNode in the hdfs (D)
+
+8.The client has finished writing data, it calls close() on the stream. (A)
+
+9.Blocks are read in order, with the DFSInputStream  opening new connections to datanodes as the client reads through the stream.(B)
+
+10.If I have 100 input splits, how many maps will run? 100 (C)
+
+
